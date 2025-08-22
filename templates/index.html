@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Invoice Manager</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background: #f7f7f7;
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+        form {
+            background: #fff;
+            padding: 20px;
+            max-width: 500px;
+            margin: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        input[type="file"] {
+            display: block;
+            margin: 10px 0 20px 0;
+        }
+        button {
+            display: block;
+            width: 100%;
+            background: #4CAF50;
+            color: white;
+            border: none;
+            padding: 12px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 6px;
+        }
+        button:hover {
+            background: #45a049;
+        }
+        /* Styled UL as invoice table */
+        .invoice-list {
+            margin: 40px auto;
+            max-width: 700px;
+            background: #fff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .invoice-list h3 {
+            background: #444;
+            color: white;
+            margin: 0;
+            padding: 12px;
+            text-align: center;
+        }
+        .invoice-list ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .invoice-list li {
+            display: grid;
+            grid-template-columns: 3fr 1fr 1fr 1fr;
+            padding: 10px 15px;
+            border-bottom: 1px solid #ddd;
+        }
+        .invoice-list li.header {
+            background: #eee;
+            font-weight: bold;
+        }
+        .invoice-list li:last-child {
+            border-bottom: none;
+        }
+        .grand-total {
+            text-align: right;
+            font-weight: bold;
+            padding: 12px 15px;
+            background: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
+    <h2>Merge Two Invoices</h2>
+    <form method="POST" enctype="multipart/form-data">
+        <label>Upload First Invoice (PDF):</label>
+        <input type="file" name="pdf1" required>
+        <label>Upload Second Invoice (PDF):</label>
+        <input type="file" name="pdf2" required>
+        <button type="submit">Merge & Download Combined Invoice</button>
+    </form>
+
+    <!-- Example of styled invoice list (you can render actual DB data here) -->
+    <div class="invoice-list">
+        <h3>Invoice Preview</h3>
+        <ul>
+            <li class="header">
+                <span>Item</span>
+                <span>Price</span>
+                <span>Qty</span>
+                <span>Total</span>
+            </li>
+            <li>
+                <span>Laptop</span>
+                <span>65000</span>
+                <span>1</span>
+                <span>65000</span>
+            </li>
+            <li>
+                <span>Wireless Mouse</span>
+                <span>1200</span>
+                <span>2</span>
+                <span>2400</span>
+            </li>
+            <li>
+                <span>Keyboard</span>
+                <span>2500</span>
+                <span>1</span>
+                <span>2500</span>
+            </li>
+        </ul>
+        <div class="grand-total">
+            Grand Total: 69900
+        </div>
+    </div>
+</body>
+</html>

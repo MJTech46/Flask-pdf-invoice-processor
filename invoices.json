@@ -1,0 +1,346 @@
+[
+    {
+        "invoice_id": 1,
+        "date": "2024-10-21",
+        "customer_name": "Customer 1",
+        "items": [
+            {
+                "item": "Laptop",
+                "price": 65000,
+                "quantity": 1,
+                "total": 65000
+            },
+            {
+                "item": "Keyboard",
+                "price": 2500,
+                "quantity": 2,
+                "total": 5000
+            }
+        ],
+        "grand_total": 70000
+    },
+    {
+        "invoice_id": 2,
+        "date": "2024-09-08",
+        "customer_name": "Customer 2",
+        "items": [
+            {
+                "item": "Monitor",
+                "price": 15000,
+                "quantity": 3,
+                "total": 45000
+            },
+            {
+                "item": "Printer",
+                "price": 12000,
+                "quantity": 3,
+                "total": 36000
+            },
+            {
+                "item": "Wireless Mouse",
+                "price": 1200,
+                "quantity": 3,
+                "total": 3600
+            },
+            {
+                "item": "Headphones",
+                "price": 2000,
+                "quantity": 3,
+                "total": 6000
+            }
+        ],
+        "grand_total": 90600
+    },
+    {
+        "invoice_id": 3,
+        "date": "2025-03-19",
+        "customer_name": "Customer 3",
+        "items": [
+            {
+                "item": "Desk Lamp",
+                "price": 800,
+                "quantity": 1,
+                "total": 800
+            },
+            {
+                "item": "Printer",
+                "price": 12000,
+                "quantity": 1,
+                "total": 12000
+            },
+            {
+                "item": "Notebook",
+                "price": 150,
+                "quantity": 2,
+                "total": 300
+            },
+            {
+                "item": "Scanner",
+                "price": 8000,
+                "quantity": 2,
+                "total": 16000
+            },
+            {
+                "item": "Headphones",
+                "price": 2000,
+                "quantity": 1,
+                "total": 2000
+            }
+        ],
+        "grand_total": 31100
+    },
+    {
+        "invoice_id": 4,
+        "date": "2025-04-20",
+        "customer_name": "Customer 4",
+        "items": [
+            {
+                "item": "External Hard Drive",
+                "price": 6000,
+                "quantity": 1,
+                "total": 6000
+            },
+            {
+                "item": "Scanner",
+                "price": 8000,
+                "quantity": 1,
+                "total": 8000
+            },
+            {
+                "item": "Pen Drive",
+                "price": 700,
+                "quantity": 2,
+                "total": 1400
+            },
+            {
+                "item": "Smartphone",
+                "price": 30000,
+                "quantity": 1,
+                "total": 30000
+            }
+        ],
+        "grand_total": 45400
+    },
+    {
+        "invoice_id": 5,
+        "date": "2025-03-31",
+        "customer_name": "Customer 5",
+        "items": [
+            {
+                "item": "Laptop",
+                "price": 65000,
+                "quantity": 1,
+                "total": 65000
+            },
+            {
+                "item": "Desk Lamp",
+                "price": 800,
+                "quantity": 2,
+                "total": 1600
+            },
+            {
+                "item": "Printer",
+                "price": 12000,
+                "quantity": 1,
+                "total": 12000
+            },
+            {
+                "item": "Smartphone",
+                "price": 30000,
+                "quantity": 3,
+                "total": 90000
+            },
+            {
+                "item": "External Hard Drive",
+                "price": 6000,
+                "quantity": 3,
+                "total": 18000
+            }
+        ],
+        "grand_total": 186600
+    },
+    {
+        "invoice_id": 6,
+        "date": "2025-01-24",
+        "customer_name": "Customer 6",
+        "items": [
+            {
+                "item": "Keyboard",
+                "price": 2500,
+                "quantity": 1,
+                "total": 2500
+            },
+            {
+                "item": "USB Cable",
+                "price": 300,
+                "quantity": 2,
+                "total": 600
+            },
+            {
+                "item": "Webcam",
+                "price": 3500,
+                "quantity": 1,
+                "total": 3500
+            },
+            {
+                "item": "Laptop",
+                "price": 65000,
+                "quantity": 2,
+                "total": 130000
+            }
+        ],
+        "grand_total": 136600
+    },
+    {
+        "invoice_id": 7,
+        "date": "2024-08-31",
+        "customer_name": "Customer 7",
+        "items": [
+            {
+                "item": "Notebook",
+                "price": 150,
+                "quantity": 1,
+                "total": 150
+            },
+            {
+                "item": "Charger",
+                "price": 1200,
+                "quantity": 2,
+                "total": 2400
+            },
+            {
+                "item": "Backpack",
+                "price": 2500,
+                "quantity": 3,
+                "total": 7500
+            },
+            {
+                "item": "Printer",
+                "price": 12000,
+                "quantity": 3,
+                "total": 36000
+            },
+            {
+                "item": "Scanner",
+                "price": 8000,
+                "quantity": 3,
+                "total": 24000
+            }
+        ],
+        "grand_total": 70050
+    },
+    {
+        "invoice_id": 8,
+        "date": "2024-11-02",
+        "customer_name": "Customer 8",
+        "items": [
+            {
+                "item": "Backpack",
+                "price": 2500,
+                "quantity": 1,
+                "total": 2500
+            },
+            {
+                "item": "USB Cable",
+                "price": 300,
+                "quantity": 3,
+                "total": 900
+            },
+            {
+                "item": "Monitor",
+                "price": 15000,
+                "quantity": 3,
+                "total": 45000
+            }
+        ],
+        "grand_total": 48400
+    },
+    {
+        "invoice_id": 9,
+        "date": "2024-11-12",
+        "customer_name": "Customer 9",
+        "items": [
+            {
+                "item": "Charger",
+                "price": 1200,
+                "quantity": 1,
+                "total": 1200
+            },
+            {
+                "item": "Desk Lamp",
+                "price": 800,
+                "quantity": 3,
+                "total": 2400
+            },
+            {
+                "item": "Laptop",
+                "price": 65000,
+                "quantity": 2,
+                "total": 130000
+            },
+            {
+                "item": "Printer",
+                "price": 12000,
+                "quantity": 1,
+                "total": 12000
+            },
+            {
+                "item": "Monitor",
+                "price": 15000,
+                "quantity": 3,
+                "total": 45000
+            },
+            {
+                "item": "Scanner",
+                "price": 8000,
+                "quantity": 1,
+                "total": 8000
+            }
+        ],
+        "grand_total": 198600
+    },
+    {
+        "invoice_id": 10,
+        "date": "2025-06-19",
+        "customer_name": "Customer 10",
+        "items": [
+            {
+                "item": "Webcam",
+                "price": 3500,
+                "quantity": 1,
+                "total": 3500
+            },
+            {
+                "item": "Keyboard",
+                "price": 2500,
+                "quantity": 1,
+                "total": 2500
+            },
+            {
+                "item": "Desk Lamp",
+                "price": 800,
+                "quantity": 2,
+                "total": 1600
+            },
+            {
+                "item": "Notebook",
+                "price": 150,
+                "quantity": 3,
+                "total": 450
+            },
+            {
+                "item": "Pen Drive",
+                "price": 700,
+                "quantity": 2,
+                "total": 1400
+            },
+            {
+                "item": "Printer",
+                "price": 12000,
+                "quantity": 1,
+                "total": 12000
+            }
+        ],
+        "grand_total": 21450
+    }
+]
